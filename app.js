@@ -1,7 +1,13 @@
 $(() => {
   console.log('working 2');
 
+// Turn switching function
+
   let playerAlternate = true;
+
+
+  ////making the divs
+
 
   for(let i=1; i <= 6; i++){
     const $div = $('<div/>').addClass('container-top');
@@ -17,6 +23,32 @@ $(() => {
     $($div2).html(4);
     $('#row-bottom').append($div2);
   }
+
+//On click function
+
+  $('.container-top').on('click', (e) => {
+    if(playerAlternate === false){
+      console.log(e.currentTarget);
+      changePlayer();
+    }else {
+      alert('It is not your turn');
+    }
+
+  })
+
+  // on click function
+
+  $('.container-bottom').on ('click', (e) => {
+    if(playerAlternate === true){
+      console.log(e.currentTarget);
+      changePlayer();
+    }else {
+      alert('It is not your turn');
+    }
+
+  })
+
+  // Turn changing function
 
   const changePlayer = () => {
     if(playerAlternate === true){
