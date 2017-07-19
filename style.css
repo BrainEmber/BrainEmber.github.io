@@ -14,6 +14,12 @@ p {
   color: white;
 }
 
+h3 {
+  text-align: center;
+  text-decoration: inherit;
+  color: white;
+}
+
 
 
 #board {
