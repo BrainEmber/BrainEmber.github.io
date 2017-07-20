@@ -5,6 +5,8 @@ $(() => {
 
   let playerAlternate = true;
 
+  $('.mancala').html(0);
+
 
   ////making the divs
 
@@ -29,6 +31,8 @@ $(() => {
   $('.container-top').on('click', (e) => {
     if(playerAlternate === false){
       console.log(e.currentTarget);
+      const number = $(e.currentTarget).text();
+      console.log(number);
       changePlayer();
     }else {
       alert('It is not your turn');
@@ -41,6 +45,8 @@ $(() => {
   $('.container-bottom').on ('click', (e) => {
     if(playerAlternate === true){
       console.log(e.currentTarget);
+      const number = $(e.currentTarget).text();
+      console.log(number);
       changePlayer();
     }else {
       alert('It is not your turn');
@@ -60,6 +66,13 @@ $(() => {
     }
 
   }
+
+  // const game = (target) => {
+  //   const $value = $(target)
+  // }
+
+
+
 
 
 
