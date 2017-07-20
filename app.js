@@ -1,5 +1,5 @@
 $(() => {
-  console.log('working 2');
+  // console.log('working 2');
 
 // Turn switching function
 
@@ -31,7 +31,7 @@ $(() => {
   $('.container-top').on('click', (e) => {
     if(playerAlternate === false){
       console.log(e.currentTarget);
-      const number = $(e.currentTarget).text();
+      const number = parseInt($(e.currentTarget).text());
       console.log(number);
       changePlayer();
     }else {
@@ -44,9 +44,10 @@ $(() => {
 
   $('.container-bottom').on ('click', (e) => {
     if(playerAlternate === true){
-      console.log(e.currentTarget);
-      const number = $(e.currentTarget).text();
-      console.log(number);
+      const target = $(e.currentTarget);
+      const number = parseInt($(e.currentTarget).text());
+      console.log(typeof number);
+      moveStonesBot(number, target);
       changePlayer();
     }else {
       alert('It is not your turn');
@@ -63,6 +64,21 @@ $(() => {
     }else {
       $('#player').text("Player One's Turn");
       playerAlternate = true
+    }
+
+  }
+
+//bottom change stones
+
+  const moveStonesBot = (number, target) => {
+    target.html(0);
+    const id = $(target).attr('id');
+    console.log(id);
+    if(id === "bottom1"){
+      for(let i=0; i < number; i++){
+        let oldNum = parseInt($('#bottom2').text());
+        $('#bottom2').text(oldNum + 1);
+      }
     }
 
   }
