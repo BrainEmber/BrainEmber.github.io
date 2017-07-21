@@ -182,6 +182,10 @@ $(() => {
 
 
       }
+
+      // ========== button 2 iteration;
+
+
     }else if(id === 'bottom2'){
       for(let i=0; i < number; i++){
 
@@ -234,6 +238,438 @@ $(() => {
         if(i === number){
           return i;
         }
+
+        oldNum = parseInt($('#mancala2').text());
+        $('#mancala2').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top6').text());
+        $('#top6').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top5').text());
+        $('#top5').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top4').text());
+        $('#top4').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top3').text());
+        $('#top3').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top2').text());
+        $('#top2').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top1').text());
+        $('#top1').text(oldNum + 1);
+
+
+
+
+      }
+    }else if(id === 'bottom3'){
+      for(let i=0; i < number; i++){
+
+        // oldNum = parseInt($('#bottom1').text());
+        // $('#bottom1').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+
+
+        // let oldNum = parseInt($('#bottom2').text());
+        // $('#bottom2').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+
+
+        // let oldNum = parseInt($('#bottom3').text());
+        // $('#bottom3').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+
+        let oldNum = parseInt($('#bottom4').text());
+        $('#bottom4').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#bottom5').text());
+        $('#bottom5').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#bottom6').text());
+        $('#bottom6').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#mancala2').text());
+        $('#mancala2').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top6').text());
+        $('#top6').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top5').text());
+        $('#top5').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top4').text());
+        $('#top4').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top3').text());
+        $('#top3').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top2').text());
+        $('#top2').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top1').text());
+        $('#top1').text(oldNum + 1);
+
+
+
+
+      }
+    }else if(id === 'bottom4'){
+      for(let i=0; i < number; i++){
+
+        // oldNum = parseInt($('#bottom1').text());
+        // $('#bottom1').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+
+
+        // let oldNum = parseInt($('#bottom2').text());
+        // $('#bottom2').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+
+
+        // let oldNum = parseInt($('#bottom3').text());
+        // $('#bottom3').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+        //
+        // oldNum = parseInt($('#bottom4').text());
+        // $('#bottom4').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+
+        oldNum = parseInt($('#bottom5').text());
+        $('#bottom5').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#bottom6').text());
+        $('#bottom6').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#mancala2').text());
+        $('#mancala2').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top6').text());
+        $('#top6').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top5').text());
+        $('#top5').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top4').text());
+        $('#top4').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top3').text());
+        $('#top3').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top2').text());
+        $('#top2').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top1').text());
+        $('#top1').text(oldNum + 1);
+
+
+
+
+      }
+    }else if(id === 'bottom5'){
+      for(let i=0; i < number; i++){
+
+        // oldNum = parseInt($('#bottom1').text());
+        // $('#bottom1').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+
+
+        // let oldNum = parseInt($('#bottom2').text());
+        // $('#bottom2').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+
+
+        // let oldNum = parseInt($('#bottom3').text());
+        // $('#bottom3').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+        //
+        // oldNum = parseInt($('#bottom4').text());
+        // $('#bottom4').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+        //
+        // oldNum = parseInt($('#bottom5').text());
+        // $('#bottom5').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+
+        oldNum = parseInt($('#bottom6').text());
+        $('#bottom6').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#mancala2').text());
+        $('#mancala2').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top6').text());
+        $('#top6').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top5').text());
+        $('#top5').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top4').text());
+        $('#top4').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top3').text());
+        $('#top3').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top2').text());
+        $('#top2').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
+        oldNum = parseInt($('#top1').text());
+        $('#top1').text(oldNum + 1);
+
+
+
+
+      }
+    }else if(id === 'bottom6'){
+      for(let i=0; i < number; i++){
+
+        // oldNum = parseInt($('#bottom1').text());
+        // $('#bottom1').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+
+
+        // let oldNum = parseInt($('#bottom2').text());
+        // $('#bottom2').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+
+
+        // let oldNum = parseInt($('#bottom3').text());
+        // $('#bottom3').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+        //
+        // oldNum = parseInt($('#bottom4').text());
+        // $('#bottom4').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
+        //
+        // oldNum = parseInt($('#bottom5').text());
+        // $('#bottom5').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        //}
+
+        // oldNum = parseInt($('#bottom6').text());
+        // $('#bottom6').text(oldNum + 1);
+        //
+        // i++;
+        // if(i === number){
+        //   return i;
+        // }
 
         oldNum = parseInt($('#mancala2').text());
         $('#mancala2').text(oldNum + 1);
