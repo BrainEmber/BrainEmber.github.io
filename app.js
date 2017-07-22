@@ -811,6 +811,14 @@ $(() => {
           return i;
         }
 
+        oldNum = parseInt($('#mancala1').text());
+        $('#mancala1').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
         oldNum = parseInt($('#bottom1').text());
         $('#bottom1').text(oldNum + 1);
 
@@ -860,13 +868,7 @@ $(() => {
           return i;
         }
 
-        oldNum = parseInt($('#mancala2').text());
-        $('#mancala2').text(oldNum + 1);
 
-        i++;
-        if(i === number){
-          return i;
-        }
 
         oldNum = parseInt($('#top6').text());
         $('#top6').text(oldNum + 1);
@@ -966,6 +968,14 @@ $(() => {
           return i;
         }
 
+        oldNum = parseInt($('#mancala1').text());
+        $('#mancala1').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
         oldNum = parseInt($('#bottom1').text());
         $('#bottom1').text(oldNum + 1);
 
@@ -1015,13 +1025,7 @@ $(() => {
           return i;
         }
 
-        oldNum = parseInt($('#mancala2').text());
-        $('#mancala2').text(oldNum + 1);
 
-        i++;
-        if(i === number){
-          return i;
-        }
 
         oldNum = parseInt($('#top6').text());
         $('#top6').text(oldNum + 1);
@@ -1047,45 +1051,7 @@ $(() => {
           return i;
         }
 
-        oldNum = parseInt($('#top3').text());
-        $('#top3').text(oldNum + 1);
 
-        i++;
-        if(i === number){
-          return i;
-        }
-
-        oldNum = parseInt($('#top2').text());
-        $('#top2').text(oldNum + 1);
-
-        i++;
-        if(i === number){
-          return i;
-        }
-
-        oldNum = parseInt($('#top1').text());
-        $('#top1').text(oldNum + 1);
-
-        i++;
-        if(i === number){
-          return i;
-        }
-
-        oldNum = parseInt($('#bottom1').text());
-        $('#bottom1').text(oldNum + 1);
-
-        i++;
-        if(i === number){
-          return i;
-        }
-
-        oldNum = parseInt($('#top5').text());
-        $('#top5').text(oldNum + 1);
-
-        i++;
-        if(i === number){
-          return i;
-        }
 
 //====================================================
 //====================================================
@@ -1122,6 +1088,14 @@ $(() => {
           return i;
         }
 
+        oldNum = parseInt($('#mancala1').text());
+        $('#mancala1').text(oldNum + 1);
+
+        i++;
+        if(i === number){
+          return i;
+        }
+
         oldNum = parseInt($('#bottom1').text());
         $('#bottom1').text(oldNum + 1);
 
@@ -1171,13 +1145,7 @@ $(() => {
           return i;
         }
 
-        oldNum = parseInt($('#mancala2').text());
-        $('#mancala2').text(oldNum + 1);
 
-        i++;
-        if(i === number){
-          return i;
-        }
 
         oldNum = parseInt($('#top6').text());
         $('#top6').text(oldNum + 1);
@@ -1227,29 +1195,7 @@ $(() => {
           return i;
         }
 
-        oldNum = parseInt($('#bottom1').text());
-        $('#bottom1').text(oldNum + 1);
 
-        i++;
-        if(i === number){
-          return i;
-        }
-
-        oldNum = parseInt($('#top5').text());
-        $('#top5').text(oldNum + 1);
-
-        i++;
-        if(i === number){
-          return i;
-        }
-
-        oldNum = parseInt($('#top4').text());
-        $('#top4').text(oldNum + 1);
-
-        i++;
-        if(i === number){
-          return i;
-        }
 
 //====================================================
 
