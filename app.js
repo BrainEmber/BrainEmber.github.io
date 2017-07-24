@@ -6,6 +6,26 @@ $(() => {
   let playerAlternate = true;
 
   $('.mancala').html(0);
+  console.log($('#mancala1'));
+
+  //win condition
+
+  const winCheck = () => {
+    let num1 = parseInt($('#mancala1').text());
+    let num2 = parseInt($('#mancala2').text());
+    if(num1 + num2 === 48){
+      alert('Game is over')
+      if(num1 > num2){
+        alert('Player 2 Wins!')
+      }else if(num1 === num2){
+        alert("its a tie!")
+      }else {
+        alert('Player 1 Wins!')
+      }
+    }else {
+
+    }
+  }
 
 
   ////making the divs
@@ -34,6 +54,7 @@ $(() => {
       const number = parseInt($(e.currentTarget).text());
       console.log(typeof number);
       moveStonesTop(number, target);
+      winCheck();
       changePlayer();
     }else {
       $('#player').text("Not Your Turn!");
@@ -49,6 +70,7 @@ $(() => {
       const number = parseInt($(e.currentTarget).text());
       console.log(typeof number);
       moveStonesBot(number, target);
+      winCheck();
       changePlayer();
     }else {
       $('#player').text("Not Your Turn!");
