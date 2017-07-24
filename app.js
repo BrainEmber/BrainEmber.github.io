@@ -149,6 +149,7 @@ $(() => {
 
         i++;
         if(i === number){
+          playerAlternate = false;
           return i;
         }
 
@@ -259,6 +260,7 @@ $(() => {
 
         i++;
         if(i === number){
+          playerAlternate = false;
           return i;
         }
 
@@ -365,6 +367,7 @@ $(() => {
 
         i++;
         if(i === number){
+          playerAlternate = false;
           return i;
         }
 
@@ -504,6 +507,7 @@ $(() => {
 
         i++;
         if(i === number){
+          playerAlternate = false;
           return i;
         }
 
@@ -572,6 +576,7 @@ $(() => {
 
         i++;
         if(i === number){
+          playerAlternate = false;
           return i;
         }
 
@@ -677,6 +682,7 @@ $(() => {
 
         i++;
         if(i === number){
+          playerAlternate = false;
           return i;
         }
 
@@ -838,6 +844,7 @@ $(() => {
 
         i++;
         if(i === number){
+          playerAlternate = true;
           return i;
         }
 
@@ -995,6 +1002,7 @@ $(() => {
 
         i++;
         if(i === number){
+          playerAlternate = true;
           return i;
         }
 
@@ -1115,6 +1123,7 @@ $(() => {
 
         i++;
         if(i === number){
+          playerAlternate = true;
           return i;
         }
 
@@ -1252,6 +1261,7 @@ $(() => {
 
         i++;
         if(i === number){
+          playerAlternate = true;
           return i;
         }
 
@@ -1383,6 +1393,7 @@ $(() => {
 
         i++;
         if(i === number){
+          playerAlternate = true;
           return i;
         }
 
@@ -1502,6 +1513,7 @@ $(() => {
 
         i++;
         if(i === number){
+          playerAlternate = true;
           return i;
         }
 
