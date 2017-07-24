@@ -1,0 +1,15 @@
+body {
+  background-color: teal;
+}
+
+h1 {
+  text-align: center;
+  color: orange;
+  font-size: 50px
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-size: 40px
+}
